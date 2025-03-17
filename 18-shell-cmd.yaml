@@ -3,8 +3,8 @@
   hosts: local
   connection: local
   tasks:
-  - name: execute ls command
-    #ansible.builtin.command: ls -ltr > /tmp/output.txt
+  - name: execute ls command in shell module
+    #ansible.builtin.command: ls -ltr > /tmp/output.txt #no access to shell variables, redirections, pipes etc
     ansible.builtin.shell: ls -ltr > /tmp/output.txt
 
   - name: execute ls command in command module
