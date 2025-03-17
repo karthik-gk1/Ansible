@@ -1,6 +1,6 @@
 - name : variables
   hosts: local
-  connection:local
+  connection: local
   vars_prompt:
     - name: val1
       prompt: Please enter val1
