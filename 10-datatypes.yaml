@@ -3,7 +3,7 @@
   connection: local
   vars:
     name: "AWS" # string
-    nummber : 120 #number
+    number : 120 #number
     topics: # list, [] this means list
     - linux
     - shell
