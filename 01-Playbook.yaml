@@ -10,5 +10,5 @@
 #To run shell script in linux -> sh <Shellscriptname>.sh
 #To run Playbook -> ansible-playbook <Playbook name>.yml
 #To check the palybook syntax use --syntax-check
-#Ad-commamd -> ansible all -i <IP>, -e ansible_user=ec2-user -e ansible_password=DevOps321 -m ping
-#inventory --> List of IP address ansible connect to
+#Ad-commamd -to> ansible all -i <IP>, -e ansible_user=ec2-user -e ansible_password=DevOps321 -m ping
+#inventory --> List of IP address ansible connect 
