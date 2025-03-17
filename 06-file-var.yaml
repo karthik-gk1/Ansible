@@ -3,7 +3,7 @@
   connection: local
   vars_files:
   - vars1.yaml
-  Tasks:
+  tasks:
   # - name: print the variable
   #   vars:  #task level variables, local variables, accessible within task,task variables can override play level variables
   #     string1="from task"
