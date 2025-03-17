@@ -2,8 +2,8 @@
   hosts: local
   connection: local
   vars: #play level variables, global variables
-    val1= 4
-    string1= "from playlevel"
+    val1: 4
+    string1: "from playlevel"
   tasks:  
   - name: print the variable
     ansible.builtin.debug:
