@@ -16,3 +16,6 @@
   - name: print the output
     ansible.builtin.debug:
       msg: "{{ command_result }}"
+
+#Command will execute from outside where shell will login to the server to execute.
+#Shell can we used for complex.
