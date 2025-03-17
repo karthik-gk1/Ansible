@@ -1,0 +1,10 @@
+- name : variables
+  hosts: local
+  connection: local
+  vars: #play level variables, global variables
+    val1= 4
+    string1= "from playlevel"
+  Tasks:  
+  - name: print the variable
+    ansible.builtin.debug:
+      msg : " print value {{val1}} & string value {{string1}}"

@@ -1,0 +1,10 @@
+- name: variables
+  hosts: local
+  connection: local
+  tasks:
+  - name: print the variable
+    ansible.builtin.debug:
+    msg : "print value {{val1}} "
+
+
+#ansiable-playbook -i inventory.ini 08-var-arg.yaml -e "val1=50"

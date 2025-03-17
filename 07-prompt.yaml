@@ -1,0 +1,13 @@
+- name : variables
+  hosts: local
+  connection:local
+  vars_prompt :
+  - name: val1
+    prompt: Please enter val1
+  - name : string1
+    prompt: please enter string1 
+    private: false #not confidential info
+  Tasks:
+  - name: print the variable
+    ansible.builtin.debug:
+      msg : " print value {{val1}} & string value {{string1}}"

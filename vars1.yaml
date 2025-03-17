@@ -1,0 +1,3 @@
+string1 = "from vars.yaml file" 
+val1= 100
+GREET ="variable file"
